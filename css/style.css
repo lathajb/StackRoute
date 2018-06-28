@@ -1,0 +1,27 @@
+
+
+body {
+    background-image: url("../img/pexels-photo-1038674.jpeg");
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+#centeredDiv {
+  margin-right: auto;
+  margin-left: auto;
+  width: 800px;
+  border-style: solid;
+  background-color: white;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+div.paddedDiv {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: ridge;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:10px;
+}
