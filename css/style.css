@@ -1,15 +1,15 @@
 
 
-body {
+#myfirstexcercise {
     background-image: url("../img/pexels-photo-1038674.jpeg");
     margin: auto;
     width: 100%;
     padding: 10px;
 }
 
+
 #centeredDiv {
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   width: 800px;
   border-style: solid;
   background-color: white;
@@ -24,4 +24,44 @@ div.paddedDiv {
   text-align:center;
   margin-top:20px;
   margin-bottom:10px;
+}
+
+.content, aside{
+   height: 600px;
+}
+
+#mysecondexcercise {
+    min-width: 800px;
+    width: 80%;
+    margin: auto;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.content {
+  width: 70%;
+  float: left;
+  /*background-color: pink;*/
+  /*background-image: url("../img/pexels-photo-1038674.jpg");*/
+}
+
+aside {
+    width: 30%;
+    /*background-color: yellow;*/
+    background-image: url("../img/bookandpen.jpg");
+    /*padding-left: .5rem;
+    margin-left: .5rem;*/
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+footer{
+  clear: both;
+}
+
+a {
+    color: blue;
+    font-weight: bold;
 }
