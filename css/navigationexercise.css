@@ -1,0 +1,43 @@
+
+
+.wrap {
+    margin: auto;
+    width: 80%;
+}
+
+#navigationbar{
+    background-color: pink;
+}
+#content{
+    box-sizing: border-box;
+    background-color: grey;
+    float:left;
+    width:70%;
+    min-height: 400px;
+    border-right-style: ridge;
+    border-color:blue;
+}
+#sidebar{
+    background-color: lightblue;
+    float:right;
+    width:30%;
+    min-height: 400px;
+}
+
+li{
+  display: inline;
+  padding-right: 20px;
+}
+
+a{
+  text-decoration:  none;
+}
+
+a:hover{
+  text-decoration:  underline;
+}
+
+footer{
+    text-align:center;
+    background-color: pink;
+}
