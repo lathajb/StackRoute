@@ -1,0 +1,44 @@
+body {
+margin:0px;
+overflow: hidden;
+}
+
+header{
+    background-color:pink;
+    height: 10vh;
+}
+
+nav{
+    background-color:powderblue;
+    height: 5vh;
+}
+
+aside {
+    background-color:plum;
+    width: 30vw;
+    height: 75vh;
+    float: left;
+}
+
+main{
+
+    background-color:royalblue;
+    height: 75vh;
+    width: 40vw;
+    float:left;
+}
+
+section{
+    background-color:olivedrab;
+    width: 30vw;
+    height: 75vh;
+    float:right;
+
+}
+
+footer{
+    background-color:mediumslateblue;
+    height: 10vh;
+    clear: both;
+}
+

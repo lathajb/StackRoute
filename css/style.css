@@ -1,4 +1,7 @@
-
+/* *{
+  padding:0;
+  margin:0;
+} */
 
 #myfirstexcercise {
     background-image: url("../img/pexels-photo-1038674.jpeg");
@@ -38,30 +41,80 @@ div.paddedDiv {
     overflow: hidden;
 }
 
-.content {
-  width: 70%;
+
+#leftsidebar {
+  width: 30%;
+  height:80vh;
+  /*background-color: yellow;
+  background-image: url("../img/bookandpen.jpg");
+  /*padding-left: .5rem;
+  margin-left: .5rem;*/
   float: left;
+  box-shadow: inset -5px 0px 5px 5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+.content {
+  width: 40%;
+  float: left;
+  height:80vh;
+  box-shadow: inset 5px 5px 5px -5px #29627e;
   /*background-color: pink;*/
   /*background-image: url("../img/pexels-photo-1038674.jpg");*/
 }
 
-aside {
+#rightsidebar {
     width: 30%;
-    /*background-color: yellow;*/
+    height:80vh;
+    /*background-color: yellow;
     background-image: url("../img/bookandpen.jpg");
     /*padding-left: .5rem;
     margin-left: .5rem;*/
     float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
+    box-shadow: inset 5px 0 5px 5px #29627e;
     font-style: italic;
     color: #29627e;
 }
 
 footer{
   clear: both;
+  border: solid;
+  height: 5vh;
+}
+
+header {
+  width: 5vh;
 }
 
 a {
     color: blue;
     font-weight: bold;
+    text-decoration: none;
+    padding-right: 10px;
+
+}
+
+a:hover{
+  text-decoration:underline;
+  text-decoration-color: teal;
+  color: red;
+}
+
+li {
+  display: inline;
+  margin: 0;
+}
+
+h1{
+  margin-left: 0px;
+  text-align: center;
+}
+
+#navigation {
+  border: solid;
+  margin: 0px;
+}
+
+ul{
+  padding:0;
 }

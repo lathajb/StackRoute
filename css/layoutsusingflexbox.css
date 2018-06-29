@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color:pink;
+    height: 10vh;
+}
+
+nav{
+    background-color:powderblue;
+    height: 5vh;
+}
+
+aside {
+    background-color:plum;
+    height: 75vh;
+    width: 30%;
+}
+
+main{
+
+    background-color:royalblue;
+    height: 75vh;
+    width: 40%;
+}
+
+section{
+    background-color:olivedrab;
+    height: 75vh;
+    width: 30%;
+}
+
+footer{
+    background-color:mediumslateblue;
+    height: 10vh;
+}
+
+@media(max-width:600px) {
+    .content{
+        flex-direction: column;
+    }
+    aside{
+        width:100%;
+    }
+    section{
+        width:100%;
+    }
+    main{
+        width:100%;
+    }
+}
